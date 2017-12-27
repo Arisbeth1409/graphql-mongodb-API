@@ -1,0 +1,24 @@
+{
+  "name": "nailglam",
+  "version": "1.0.0",
+  "description": "Web site for nice girls & GLamour",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nails"
+  ],
+  "dependencies": {
+    "base64url": "^2.0.0",
+    "body-parser": "*",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "graphql-voyager": "^1.0.0-rc.11",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  },
+  "author": "Fernando Robles Rivera",
+  "license": "ISC"
+}
