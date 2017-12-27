@@ -24,7 +24,15 @@ const Order = new GraphQLObjectType({
         },
         timestamp: {
             type: ScalarDate
-        }
+        },
+        user: {
+            type: require('../users'),
+            args: {
+                id: {
+                    type: new GraphQLNonNull(GraphQLID)
+                }
+            }
+        },
     })
 });
 

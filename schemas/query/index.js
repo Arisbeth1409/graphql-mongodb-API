@@ -22,7 +22,7 @@ const UserList = new GraphQLObjectType({
     name: 'Users',
     fields: () => ({
         users: {
-            type: User,
+            type: new GraphQLList(User),
             args: {
                 id: {
                     type: new GraphQLNonNull(GraphQLString)
